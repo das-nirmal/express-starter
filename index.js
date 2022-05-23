@@ -15,7 +15,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(require('morgan')('short'));
 
-app.get('/jwt/:id', (req, res) => {
+app.get('/jwk/:id', (req, res) => {
     //todo
 
     //URL: https://api.npoint.io/c60250ef07844b83e913
